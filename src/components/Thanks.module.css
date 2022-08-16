@@ -1,0 +1,38 @@
+.thanks {
+    padding: 1rem;
+    text-align: center;
+    transform: translateY(100%);
+    transition: all .3s ease;
+
+}
+
+.thanks.transform {
+    transform: translateY(-100%);
+}
+.thanks img {
+    display: block;
+    width: 15rem;
+    margin: auto;
+}
+
+.message {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    padding: .5rem .8rem;
+    width: auto; 
+    display: inline-block;
+    border-radius: 1rem;
+    background-color: var(--Lighter-blue);
+    color: var(--Orange);
+}
+
+.thanks h1 {
+    color: var(--White);
+}
+
+.thanks p {
+    color: var(--Light-Grey);
+    margin: 2rem auto;
+    font-size: clamp(1.3rem, 50%, .5rem);
+    line-height: 2rem;
+}

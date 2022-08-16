@@ -1,0 +1,34 @@
+.container {
+    width: 90%;
+    max-width: 33rem;
+    height: 36rem;
+    padding: 2rem;
+    background-color: var(--Dark-Blue);
+    transition: all .5s ease;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

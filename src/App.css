@@ -1,8 +1,17 @@
+@import './variables.css';
+
+
+
 .App {
-  text-align: center;
+  outline: 1px solid red;
+  min-height: 100vh;
+  background: var(--Very-Dark-Blue);
+  display: grid;
+  place-items: center;
+  font-family: var(--Overpass);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
